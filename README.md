@@ -18,6 +18,9 @@ config, no changes to your content.
 - **Works with** [Astro](#astro) (including Astro 7's Sätteri processor), [Next.js](#nextjs),
   [Docusaurus](#docusaurus), and any [unified](#unified) or [rehype](#rehype-on-html) pipeline.
 
+See it live, and read why and how it was built:
+[Favicons Next to External Links, Automatically](https://ihabkhattab.com/blog/favicons-next-to-external-links/).
+
 ## Contents
 
 - [Before and after](#before-and-after)
