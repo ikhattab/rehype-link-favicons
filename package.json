@@ -1,0 +1,73 @@
+{
+  "name": "rehype-link-favicons",
+  "version": "0.1.0",
+  "description": "Show the favicon of the linked site next to external links, downloaded and inlined at build time. For rehype and S\u00e4tteri (Astro 7).",
+  "keywords": [
+    "rehype",
+    "rehype-plugin",
+    "unified",
+    "hast",
+    "favicon",
+    "link",
+    "external-links",
+    "markdown",
+    "astro",
+    "mdx",
+    "satteri"
+  ],
+  "license": "MIT",
+  "author": "Ihab Khattab <ihab@hey.com>",
+  "repository": "github:ikhattab/rehype-link-favicons",
+  "bugs": "https://github.com/ikhattab/rehype-link-favicons/issues",
+  "homepage": "https://github.com/ikhattab/rehype-link-favicons#readme",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./satteri": {
+      "types": "./satteri.d.ts",
+      "default": "./satteri.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "satteri.js",
+    "satteri.d.ts",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "tsc",
+    "format": "prettier --write .",
+    "check": "prettier --check . && tsc && node --test"
+  },
+  "dependencies": {
+    "@types/hast": "^3.0.0",
+    "unist-util-visit": "^5.0.0",
+    "vfile": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.0",
+    "prettier": "3.9.10",
+    "rehype-parse": "9.0.1",
+    "rehype-stringify": "10.0.1",
+    "typescript": "5.9.3",
+    "unified": "11.0.5",
+    "satteri": "0.10.5"
+  },
+  "peerDependencies": {
+    "satteri": ">=0.10.0"
+  },
+  "peerDependenciesMeta": {
+    "satteri": {
+      "optional": true
+    }
+  }
+}

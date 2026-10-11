@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "strict": true,
+    "module": "nodenext",
+    "target": "es2022",
+    "skipLibCheck": true,
+    "types": ["node"]
+  },
+  "include": ["index.js", "index.d.ts", "satteri.js", "satteri.d.ts", "lib/**/*.js", "test/**/*.js"]
+}
