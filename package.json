@@ -1,6 +1,6 @@
 {
   "name": "rehype-link-favicons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Show the favicon of the linked site next to external links, downloaded and inlined at build time. For rehype and Sätteri (Astro 7).",
   "keywords": [
     "rehype",
