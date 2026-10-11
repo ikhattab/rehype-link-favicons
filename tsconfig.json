@@ -9,5 +9,13 @@
     "skipLibCheck": true,
     "types": ["node"]
   },
-  "include": ["index.js", "index.d.ts", "satteri.js", "satteri.d.ts", "lib/**/*.js", "test/**/*.js"]
+  "include": [
+    "scripts/**/*.js",
+    "index.js",
+    "index.d.ts",
+    "satteri.js",
+    "satteri.d.ts",
+    "lib/**/*.js",
+    "test/**/*.js"
+  ]
 }
