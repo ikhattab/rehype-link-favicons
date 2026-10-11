@@ -1,7 +1,7 @@
 {
   "name": "rehype-link-favicons",
   "version": "0.1.0",
-  "description": "Show the favicon of the linked site next to external links, downloaded and inlined at build time. For rehype and S\u00e4tteri (Astro 7).",
+  "description": "Show the favicon of the linked site next to external links, downloaded and inlined at build time. For rehype and Sätteri (Astro 7).",
   "keywords": [
     "rehype",
     "rehype-plugin",
@@ -17,7 +17,10 @@
   ],
   "license": "MIT",
   "author": "Ihab Khattab <ihab@hey.com>",
-  "repository": "github:ikhattab/rehype-link-favicons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikhattab/rehype-link-favicons.git"
+  },
   "bugs": "https://github.com/ikhattab/rehype-link-favicons/issues",
   "homepage": "https://github.com/ikhattab/rehype-link-favicons#readme",
   "type": "module",
