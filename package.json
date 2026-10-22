@@ -58,14 +58,14 @@
     "vfile": "^6.0.0"
   },
   "devDependencies": {
-    "@types/node": "22.19.0",
+    "@types/node": "26.6.5",
     "prettier": "3.9.10",
     "rehype-parse": "9.0.1",
     "rehype-stringify": "10.0.1",
     "remark-parse": "11.0.0",
     "remark-rehype": "11.1.2",
     "satteri": "0.10.5",
-    "typescript": "5.9.3",
+    "typescript": "7.0.2",
     "unified": "11.0.5"
   },
   "peerDependencies": {
